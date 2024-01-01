@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/Button";
 import { Modal } from "@/components/Modal";
 import { useRouter } from "next/navigation";
 import { ChangeEventHandler, FormEventHandler, useState } from "react";
@@ -116,7 +117,7 @@ export default function SignupModal() {
               </div>
             </div>
             <div>
-              <button disabled>가입하기</button>
+              <Button disabled>가입하기</Button>
             </div>
           </form>
         </div>

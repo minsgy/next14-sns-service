@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/Button";
 import { Modal } from "@/components/Modal";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -54,7 +55,7 @@ export default function LoginModal() {
           </div>
           <div>{message}</div>
           <div>
-            <button disabled={!id && !password}>로그인하기</button>
+            <Button disabled={!id && !password}>로그인하기</Button>
           </div>
         </form>
       </div>

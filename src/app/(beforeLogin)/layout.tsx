@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 type Props = { children: ReactNode; modal: ReactNode };
 export default function Layout({ children, modal }: Props) {
   return (
-    <div>
+    <div className="h-dvh w-dvw flex flex-col justify-center items-center">
       {children}
       {modal}
     </div>
