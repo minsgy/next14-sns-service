@@ -1,5 +1,7 @@
-import React from "react";
-
-export const page = () => {
-  return <div>page</div>;
-};
+export default function Page() {
+  return (
+    <main>
+      게시글 상세
+    </main>
+  )
+}
